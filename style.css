@@ -262,6 +262,7 @@ section
 
 .about-containers
 {
+    min-height: fit-content;
     gap: 2rem;
     margin-bottom: 2rem;
     margin-top: 2rem;
@@ -290,6 +291,7 @@ section
 
 .details-container
 {
+    height: fit-content;
     padding: 1.5rem;
     flex: 1;
     background: white;
@@ -328,6 +330,7 @@ section
 
 .experience-details-container
 {
+    height: fit-content;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -335,6 +338,7 @@ section
 
 .article-container
 {
+    height:fit-content;
     display: flex;
     text-align: initial;
     flex-wrap: wrap;
@@ -393,7 +397,7 @@ article .icon{ cursor: default;}
     display: flex;
     justify-content: center;
     flex-direction: column;
-    height: 70vh;
+    height: fit-content;
 }
 
 .contact-info-upper-container
