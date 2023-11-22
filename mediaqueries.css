@@ -56,11 +56,16 @@
 
     .about-containers,
     .contact-info-upper-container,
-    .btn-container
+    .btn-container,
+    .experience-container
     {
         flex-wrap: wrap;
     }
-
+    
+    .experience-container
+    {
+        max-width: 90%;
+    }
     .contact-info-container p,
     .nav-links li a
     {
